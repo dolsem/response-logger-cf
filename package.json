@@ -1,0 +1,15 @@
+{
+	"name": "response-logger-cf",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler pages dev public"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20230518.0",
+		"wrangler": "^3.0.0"
+	},
+	"dependencies": {
+		"flatry": "^1.0.14"
+	}
+}
